@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A393F5E1FEEA2F700892341 /* AbsAppleComputerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A393F5D1FEEA2F700892341 /* AbsAppleComputerFactory.m */; };
+		0A393F611FEEA48B00892341 /* AbsAppleComputerCpu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A393F601FEEA48B00892341 /* AbsAppleComputerCpu.m */; };
+		0A393F641FEEA4A700892341 /* AbsAppleComputerDisplayCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A393F631FEEA4A700892341 /* AbsAppleComputerDisplayCard.m */; };
+		0A393F671FEEA9BD00892341 /* AbsLenovoComputerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A393F661FEEA9BD00892341 /* AbsLenovoComputerFactory.m */; };
+		0A393F6A1FEEA9F900892341 /* AbsLenovoComputerCpu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A393F691FEEA9F900892341 /* AbsLenovoComputerCpu.m */; };
+		0A393F6D1FEEAA1400892341 /* AbsLenovoComputerDisplayCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A393F6C1FEEAA1400892341 /* AbsLenovoComputerDisplayCard.m */; };
+		0A393F751FEEB6C800892341 /* AbsBaiduMapFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A393F741FEEB6C800892341 /* AbsBaiduMapFactory.m */; };
+		0A393F7A1FEEB70A00892341 /* AbsBaiduMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A393F791FEEB70A00892341 /* AbsBaiduMapView.m */; };
+		0A393F7D1FEEB71F00892341 /* AbsBaiduMapLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A393F7C1FEEB71F00892341 /* AbsBaiduMapLocation.m */; };
+		0A393F801FEEB9FE00892341 /* AbsGaodeMapFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A393F7F1FEEB9FE00892341 /* AbsGaodeMapFactory.m */; };
+		0A393F831FEEBA1000892341 /* AbsGaodeMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A393F821FEEBA1000892341 /* AbsGaodeMapView.m */; };
+		0A393F861FEEBA2100892341 /* AbsGaodeMapLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A393F851FEEBA2100892341 /* AbsGaodeMapLocation.m */; };
 		0A39A06E1FE4F8AA00E1F2FA /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A39A0691FE4F8AA00E1F2FA /* BaiduMapAPI_Base.framework */; };
 		0A39A06F1FE4F8AA00E1F2FA /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A39A06A1FE4F8AA00E1F2FA /* BaiduMapAPI_Map.framework */; };
 		0A39A0701FE4F8AA00E1F2FA /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A39A06C1FE4F8AA00E1F2FA /* libcrypto.a */; };
@@ -45,6 +57,35 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A393F571FEEA13600892341 /* AbsComputerCpu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbsComputerCpu.h; sourceTree = "<group>"; };
+		0A393F581FEEA18400892341 /* AbsComputerDisplayCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbsComputerDisplayCard.h; sourceTree = "<group>"; };
+		0A393F5C1FEEA2F700892341 /* AbsAppleComputerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbsAppleComputerFactory.h; sourceTree = "<group>"; };
+		0A393F5D1FEEA2F700892341 /* AbsAppleComputerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbsAppleComputerFactory.m; sourceTree = "<group>"; };
+		0A393F5F1FEEA48B00892341 /* AbsAppleComputerCpu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbsAppleComputerCpu.h; sourceTree = "<group>"; };
+		0A393F601FEEA48B00892341 /* AbsAppleComputerCpu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbsAppleComputerCpu.m; sourceTree = "<group>"; };
+		0A393F621FEEA4A700892341 /* AbsAppleComputerDisplayCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbsAppleComputerDisplayCard.h; sourceTree = "<group>"; };
+		0A393F631FEEA4A700892341 /* AbsAppleComputerDisplayCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbsAppleComputerDisplayCard.m; sourceTree = "<group>"; };
+		0A393F651FEEA9BD00892341 /* AbsLenovoComputerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbsLenovoComputerFactory.h; sourceTree = "<group>"; };
+		0A393F661FEEA9BD00892341 /* AbsLenovoComputerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbsLenovoComputerFactory.m; sourceTree = "<group>"; };
+		0A393F681FEEA9F900892341 /* AbsLenovoComputerCpu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbsLenovoComputerCpu.h; sourceTree = "<group>"; };
+		0A393F691FEEA9F900892341 /* AbsLenovoComputerCpu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbsLenovoComputerCpu.m; sourceTree = "<group>"; };
+		0A393F6B1FEEAA1400892341 /* AbsLenovoComputerDisplayCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbsLenovoComputerDisplayCard.h; sourceTree = "<group>"; };
+		0A393F6C1FEEAA1400892341 /* AbsLenovoComputerDisplayCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbsLenovoComputerDisplayCard.m; sourceTree = "<group>"; };
+		0A393F6F1FEEB4E000892341 /* AbsMapFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbsMapFactory.h; sourceTree = "<group>"; };
+		0A393F701FEEB50300892341 /* AbsMapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbsMapView.h; sourceTree = "<group>"; };
+		0A393F711FEEB51600892341 /* AbsMapLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbsMapLocation.h; sourceTree = "<group>"; };
+		0A393F731FEEB6C800892341 /* AbsBaiduMapFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbsBaiduMapFactory.h; sourceTree = "<group>"; };
+		0A393F741FEEB6C800892341 /* AbsBaiduMapFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbsBaiduMapFactory.m; sourceTree = "<group>"; };
+		0A393F781FEEB70A00892341 /* AbsBaiduMapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbsBaiduMapView.h; sourceTree = "<group>"; };
+		0A393F791FEEB70A00892341 /* AbsBaiduMapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbsBaiduMapView.m; sourceTree = "<group>"; };
+		0A393F7B1FEEB71F00892341 /* AbsBaiduMapLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbsBaiduMapLocation.h; sourceTree = "<group>"; };
+		0A393F7C1FEEB71F00892341 /* AbsBaiduMapLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbsBaiduMapLocation.m; sourceTree = "<group>"; };
+		0A393F7E1FEEB9FE00892341 /* AbsGaodeMapFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbsGaodeMapFactory.h; sourceTree = "<group>"; };
+		0A393F7F1FEEB9FE00892341 /* AbsGaodeMapFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbsGaodeMapFactory.m; sourceTree = "<group>"; };
+		0A393F811FEEBA1000892341 /* AbsGaodeMapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbsGaodeMapView.h; sourceTree = "<group>"; };
+		0A393F821FEEBA1000892341 /* AbsGaodeMapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbsGaodeMapView.m; sourceTree = "<group>"; };
+		0A393F841FEEBA2100892341 /* AbsGaodeMapLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbsGaodeMapLocation.h; sourceTree = "<group>"; };
+		0A393F851FEEBA2100892341 /* AbsGaodeMapLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbsGaodeMapLocation.m; sourceTree = "<group>"; };
 		0A39A0691FE4F8AA00E1F2FA /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
 		0A39A06A1FE4F8AA00E1F2FA /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
 		0A39A06C1FE4F8AA00E1F2FA /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
@@ -85,6 +126,7 @@
 		0AAB4A3E1FE2C2EF005B146E /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		0AAB4A401FE2C2F8005B146E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		0AAB4A421FE2C304005B146E /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		0ABE876B1FED6B180063617B /* AbsComputerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbsComputerFactory.h; sourceTree = "<group>"; };
 		0AECC30D1FE63BC10007C2C6 /* IMapFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMapFactory.h; sourceTree = "<group>"; };
 		0AECC30E1FE64FBF0007C2C6 /* IMapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMapView.h; sourceTree = "<group>"; };
 		0AECC30F1FE671380007C2C6 /* BaiduMapFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaiduMapFactory.h; sourceTree = "<group>"; };
@@ -128,6 +170,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A393F591FEEA1C600892341 /* Impl */ = {
+			isa = PBXGroup;
+			children = (
+				0A393F5B1FEEA1F500892341 /* Lenovo */,
+				0A393F5A1FEEA1EB00892341 /* Apple */,
+			);
+			path = Impl;
+			sourceTree = "<group>";
+		};
+		0A393F5A1FEEA1EB00892341 /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+				0A393F5C1FEEA2F700892341 /* AbsAppleComputerFactory.h */,
+				0A393F5D1FEEA2F700892341 /* AbsAppleComputerFactory.m */,
+				0A393F5F1FEEA48B00892341 /* AbsAppleComputerCpu.h */,
+				0A393F601FEEA48B00892341 /* AbsAppleComputerCpu.m */,
+				0A393F621FEEA4A700892341 /* AbsAppleComputerDisplayCard.h */,
+				0A393F631FEEA4A700892341 /* AbsAppleComputerDisplayCard.m */,
+			);
+			path = Apple;
+			sourceTree = "<group>";
+		};
+		0A393F5B1FEEA1F500892341 /* Lenovo */ = {
+			isa = PBXGroup;
+			children = (
+				0A393F651FEEA9BD00892341 /* AbsLenovoComputerFactory.h */,
+				0A393F661FEEA9BD00892341 /* AbsLenovoComputerFactory.m */,
+				0A393F681FEEA9F900892341 /* AbsLenovoComputerCpu.h */,
+				0A393F691FEEA9F900892341 /* AbsLenovoComputerCpu.m */,
+				0A393F6B1FEEAA1400892341 /* AbsLenovoComputerDisplayCard.h */,
+				0A393F6C1FEEAA1400892341 /* AbsLenovoComputerDisplayCard.m */,
+			);
+			path = Lenovo;
+			sourceTree = "<group>";
+		};
+		0A393F6E1FEEAE5200892341 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				0A393F721FEEB68A00892341 /* Impl */,
+				0A393F6F1FEEB4E000892341 /* AbsMapFactory.h */,
+				0A393F701FEEB50300892341 /* AbsMapView.h */,
+				0A393F711FEEB51600892341 /* AbsMapLocation.h */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		0A393F721FEEB68A00892341 /* Impl */ = {
+			isa = PBXGroup;
+			children = (
+				0A393F771FEEB6DF00892341 /* google */,
+				0A393F761FEEB6D700892341 /* baidu */,
+			);
+			path = Impl;
+			sourceTree = "<group>";
+		};
+		0A393F761FEEB6D700892341 /* baidu */ = {
+			isa = PBXGroup;
+			children = (
+				0A393F731FEEB6C800892341 /* AbsBaiduMapFactory.h */,
+				0A393F741FEEB6C800892341 /* AbsBaiduMapFactory.m */,
+				0A393F781FEEB70A00892341 /* AbsBaiduMapView.h */,
+				0A393F791FEEB70A00892341 /* AbsBaiduMapView.m */,
+				0A393F7B1FEEB71F00892341 /* AbsBaiduMapLocation.h */,
+				0A393F7C1FEEB71F00892341 /* AbsBaiduMapLocation.m */,
+			);
+			path = baidu;
+			sourceTree = "<group>";
+		};
+		0A393F771FEEB6DF00892341 /* google */ = {
+			isa = PBXGroup;
+			children = (
+				0A393F7E1FEEB9FE00892341 /* AbsGaodeMapFactory.h */,
+				0A393F7F1FEEB9FE00892341 /* AbsGaodeMapFactory.m */,
+				0A393F811FEEBA1000892341 /* AbsGaodeMapView.h */,
+				0A393F821FEEBA1000892341 /* AbsGaodeMapView.m */,
+				0A393F841FEEBA2100892341 /* AbsGaodeMapLocation.h */,
+				0A393F851FEEBA2100892341 /* AbsGaodeMapLocation.m */,
+			);
+			path = google;
+			sourceTree = "<group>";
+		};
 		0A39A06B1FE4F8AA00E1F2FA /* thirdlibs */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +328,7 @@
 		0AAB4A0F1FE2C00F005B146E /* Factory */ = {
 			isa = PBXGroup;
 			children = (
+				0ABE87691FED6ADA0063617B /* FactoryAbs */,
 				0A39A0851FE53C2B00E1F2FA /* FactoryMethod */,
 				0AAB4A261FE2C1D5005B146E /* SimpleFactory */,
 				0AAB4A101FE2C00F005B146E /* AppDelegate.h */,
@@ -259,6 +383,26 @@
 				0AAB4A321FE2C2B0005B146E /* CoreLocation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0ABE87691FED6ADA0063617B /* FactoryAbs */ = {
+			isa = PBXGroup;
+			children = (
+				0A393F6E1FEEAE5200892341 /* Map */,
+				0ABE876A1FED6AF50063617B /* Simple */,
+			);
+			path = FactoryAbs;
+			sourceTree = "<group>";
+		};
+		0ABE876A1FED6AF50063617B /* Simple */ = {
+			isa = PBXGroup;
+			children = (
+				0A393F591FEEA1C600892341 /* Impl */,
+				0ABE876B1FED6B180063617B /* AbsComputerFactory.h */,
+				0A393F571FEEA13600892341 /* AbsComputerCpu.h */,
+				0A393F581FEEA18400892341 /* AbsComputerDisplayCard.h */,
+			);
+			path = Simple;
 			sourceTree = "<group>";
 		};
 		0AE174D91FE4F86100BEEDB9 /* Baidu */ = {
@@ -378,15 +522,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AAB4A151FE2C00F005B146E /* ViewController.mm in Sources */,
+				0A393F6D1FEEAA1400892341 /* AbsLenovoComputerDisplayCard.m in Sources */,
+				0A393F641FEEA4A700892341 /* AbsAppleComputerDisplayCard.m in Sources */,
 				0AECC3111FE671380007C2C6 /* BaiduMapFactory.m in Sources */,
+				0A393F7A1FEEB70A00892341 /* AbsBaiduMapView.m in Sources */,
 				0A5C33B91FE2CDDD00CDB296 /* MapFactory.m in Sources */,
 				0AAB4A201FE2C00F005B146E /* main.m in Sources */,
+				0A393F801FEEB9FE00892341 /* AbsGaodeMapFactory.m in Sources */,
+				0A393F671FEEA9BD00892341 /* AbsLenovoComputerFactory.m in Sources */,
+				0A393F6A1FEEA9F900892341 /* AbsLenovoComputerCpu.m in Sources */,
+				0A393F7D1FEEB71F00892341 /* AbsBaiduMapLocation.m in Sources */,
+				0A393F831FEEBA1000892341 /* AbsGaodeMapView.m in Sources */,
 				0AECC31B1FE67D010007C2C6 /* GaodeMapView.m in Sources */,
 				0A39A08C1FE53F0300E1F2FA /* AppleComputerFactory.m in Sources */,
+				0A393F5E1FEEA2F700892341 /* AbsAppleComputerFactory.m in Sources */,
 				0AAB4A121FE2C00F005B146E /* AppDelegate.m in Sources */,
 				0AECC3181FE67CF10007C2C6 /* GaodeMapFactory.m in Sources */,
+				0A393F861FEEBA2100892341 /* AbsGaodeMapLocation.m in Sources */,
 				0A39A08F1FE5400000E1F2FA /* AppleComputer.m in Sources */,
 				0AECC3141FE671470007C2C6 /* BaiduMapView.m in Sources */,
+				0A393F751FEEB6C800892341 /* AbsBaiduMapFactory.m in Sources */,
+				0A393F611FEEA48B00892341 /* AbsAppleComputerCpu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
